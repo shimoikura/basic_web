@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="height:100%;">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+      $(function(){
+        $('.menu')
+        //マウスを乗せたら発動
+        .hover(function(){
+            //マウスを乗せたら色が変わる
+            $(this).css({"background-color":"gray","border-bottom-style":"","border-bottom-color":"red","color":"blue"});
+        })
+        //マウスを外したら発動
+        .mouseout(function(){
+            $(this).css({"background-color":"","border-bottom-style":"none","color":"white"});
+        });
+      });
+    </script>
+    <div class="" style="height:100%; width:100%; background-color:red;">
+      <div class="" style="height:15%;width:100%; background-color:blue;" >
+        <div class="" style="height:100%;width:30%; background-color:red; float:left;" >
+          <div class="" style="height:70%;width:90%; background-color:green; margin-top:20px; margin-left:15px;" >
+            <h1 style="text-align:center; padding-top:10px;">Header image</h1>
+          </div>
+        </div>
+        <div class="" style="height:100%;width:70%; background-color:red; float:left;" >
+          <div class="" style="height:70%;width:95%; background-color:orange; float:left; margin-top:20px; margin-left:15px" >
+            <h1 style="text-align:center; margin-top:10px;">Sample Layout Demo</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="" style="height:10%; width:100%; background-color:black;">
+        <div class="" style="height:100%; width:40%; background-color:black;  padding-right:20px; float:right;">
+          <table  border="2px" bordercolor="white" cellspacing="0"  style="border-right-style:none; border-left-style:none; border-top-style:none; border-bottom-style:none; text-align:center; width:100%; height:100%; background-color:black; ">
+            <tr>
+              <td class="menu" style="color:white; border-left-style:none; border-top-style:none; border-bottom-style:none;">About us</td>
+              <td class="menu" style="color:white; border-left-style:none; border-top-style:none; border-bottom-style:none;">Login</td>
+              <td class="menu" style="color:white; border-left-style:none; border-top-style:none; border-bottom-style:none;">CLIENTS</td>
+              <td class="menu" style="color:white; border-left-style:none; border-top-style:none; border-bottom-style:none;">SERVICES</td>
+              <td class="menu" style="color:white; border-left-style:none; border-top-style:none; border-bottom-style:none;">CONTACT</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="" style="height:65%; width:100%; background-color:red;">
+         <div class="" style="height:100%; width:70%; float:left; background-color:blue;">
+           <h1 style="text-align:center; font-size:70px; color:white; margin-top:140px;">Info is here</h1>
+         </div>
+         <div class="" style="height:100%; width:30%; float:left;">
+           <div class="" style="height:33%; width:100%; float:left; background-color:green;">
+             <h1 style="text-align:center; margin-top:60px;">Add image</h1>
+           </div>
+           <div class="" style="height:33%; width:100%; float:left; background-color:gray;">
+             <h1 style="text-align:center; margin-top:60px;">Notification</h1>
+           </div>
+           <div class="" style="height:34%; width:100%; float:left; background-color:green;">
+             <h1 style="text-align:center; margin-top:60px;">Add another image</h1>
+           </div>
+         </div>
+       </div>
+
+       <div class="" style="height:10%; width:100%; background-color:red;">
+         <h1 style="text-align:center; margin-top:30px; font-size:50px;">Footer Area</h1>
+       </div>
+
+    </div>
+  </body>
+</html>
