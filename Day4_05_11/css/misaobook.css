@@ -1,0 +1,139 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.header{
+  width: 100%;
+  height: 12%;
+  background-color:#3b5998;/*http://www.color-hex.com/color-palette/185*/
+}
+.header-left{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-left h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  color: white;
+}
+.black{
+  font-size:8px;
+  display: inline;
+  margin: 0;
+}
+.blue{
+  font-size: 10px;
+  color: blue;
+  display: inline;
+  margin: 0;
+}
+.header-right{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-right a{
+  color: white;
+}
+.header-right table{
+  width: 100%;
+}
+.header-right td{
+  float: left;
+  width: 32%;
+  margin-right: 5px;
+}
+.header-right input{
+  width: 100%;
+  height: 28px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 3px;   /* Firefox用 */
+  border: 1px solid #999;
+  padding-left: 5px;
+}
+.header-right button{
+  height: 32px;
+  border: 1px solid #999;
+  background-color: skyblue;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 3px;   /* Firefox用 */
+}
+.main{
+  width: 100%;
+  height: 90%;
+}
+.main-left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url("C:/Users/coop/Pictures/misao web/facebook2561.png");
+  background-repeat:no-repeat;　/*背景画像を繰り返さない*/
+}
+.main-right{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.main-right h2{
+  margin: 0;
+}
+.main-right table{
+  height: 100%;
+  width: 70%;
+}
+.main-right td{
+}
+.main-right input[type=text] {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;   /* Firefox用 */
+  border: 1px solid #999;
+  padding-left: 5px;
+}
+.main-right input[type=password] {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;   /* Firefox用 */
+  border: 1px solid #999;
+  padding-left: 5px;
+}
+.main-right h1{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.main-right h2{
+  font-size: 18px;
+}
+.main-right button{
+  width: 100%;
+  height: 32px;
+  border: 1px solid #999;
+  background-color: #28a371;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 3px;   /* Firefox用 */
+  color: white;
+}
+
+.footer{
+  height: 10%;
+  width: 100%;
+  background-color: white;
+}
+.footer a{
+  color: blue;
+}
