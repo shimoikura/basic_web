@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="C:/Users/coop/Documents/jquery-3.2.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#result_button").click(function(){
+          var a = $("#number1").val();
+          var b = $("#number2").val();
+          var c = $("#opperater").val();
+          if (c == "+") {
+            var d = parseInt(a) + parseInt(b);
+            $("#result_text").text(d);
+          }
+
+          else if (c == "-") {
+            var d = a - b;
+            $("#result_text").text(d);
+          }
+          else if (c == "*") {
+            var d = a * b;
+            $("#result_text").text(d);
+          }
+          else if (c == "/") {
+            var d = a / b;
+            $("#result_text").text(d);
+          }
+          else if (c == "%") {
+            var d = a % b;
+            $("#result_text").text(d);
+          }
+          else{
+            $("#result_text").text("Apperater is wrong!");
+          }
+         });
+
+        });
+    </script>
+  </head>
+  <body>
+    First number<input id="number1" type="number" name="" value="">
+    Second number<input type="number" id="number2"  name="" value="">
+    Opperater<input id="opperater" type="text" name="" value="">
+    <button id="result_button" type="button" name="button">Result</button>
+    <h1 id="result_text">Result</h1>
+  </body>
+</html>

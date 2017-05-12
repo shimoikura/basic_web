@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery_lesson</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="C:/Users/coop/Documents/jquery-3.2.1.js"></script>
+    <script>
+       // confirm jquer install?: alert("hello");
+      //define: $(document).ready(function () {    });
+      $(document).ready(function () {
+        $("#button1").click(function(){
+          $(".container").slideDown();
+        });
+        $("#button2").click(function(){
+          $(".container").slideUp(2000);
+        });
+        $("#button3").click(function(){
+          $(".container").toggle();
+        });
+      });
+       //event: click,toggle,slideUp(2000),slideDown,dblclick,show,hide,mouseenter,mouseleave
+    </script>
+  </head>
+  <body>
+    <div class="container">
+
+    </div>
+    <button type="button" name="button" id="button1">button1</button>
+    <button type="button" name="button" id="button2">button2</button>
+    <button type="button" name="button" id="button3">button3</button>
+  </body>
+</html>

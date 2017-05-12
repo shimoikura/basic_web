@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="C:/Users/coop/Documents/jquery-3.2.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#button1").click(function(){
+          //important .val .text , val
+              var a =  $("#text1").val();
+            //  var b =  $("#text2").val();
+          //parseInt,parseFloot(): string to integer
+          if (a > 17) {
+            $("#hello").text("You can get a drive ricence!");
+          }
+          //  var c = parseInt(a) + parseInt(b);
+          else {
+            $("#hello").text("You are too young!");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1 id="hello">HELLO</h1>
+    How old are you?<br>
+    <input id="text1" type="text" name="" value="">
+    <!-- number2<input id="text2" type="text" name="" value=""> -->
+    <button id="button1" type="button" name="button">button</button>
+  </body>
+</html>

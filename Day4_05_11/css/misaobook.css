@@ -6,6 +6,11 @@ body{
   height: 100%;
   background: linear-gradient(white, gray);/*background グラデーション*/
 }
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
 .container{
   width: 100%;
   height: 100%;
@@ -88,7 +93,7 @@ body{
 .main-left img{
   left: 50%;
   min-height: 100%;
-  min-width: 100%;
+  min-width: 70%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -102,7 +107,7 @@ body{
   margin: 0;
 }
 .main-right table{
-  height: 100%;
+  height: 60%;
   width: 70%;
 }
 .main-right td{
@@ -158,8 +163,8 @@ body{
   font-size: 10px;
 }
 
-/* ウィンドウ幅が0〜800pxの場合に適用するCSS */
-@media screen and ( max-width:800px )
+/* ウィンドウ幅が0〜500pxの場合に適用するCSS */
+@media screen and ( max-width:500px )
 {
   .header-left{
     width: 100%;
