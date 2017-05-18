@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ja">
+    <title>Bootstrap misaobook</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body style="background: linear-gradient(white, gray);">
+    <div class="navbar" style="background-color: #3b5998;">
+      <!-- header-left -->
+        <div class="navbar-inner header-left col-md-7 col-sm6" >
+          <a class="navbar-brand" href="#">MISAOBOOK</a>
+        </div>
+      <!-- header-right   -->
+        <div class=" navbar-inner header-right col-md-5 col-sm6" style="background-color: #3b5998;">
+          <form class="navbar-inner pull-left">
+            <div class="form-group">
+              <label class="control-label" for="email">Email or phone</label>
+              <input type="text" class="form-control mr-sm-2" name="email" placeholder="Email or phone">
+            </div>
+          </form>
+          <form class="navbar-inner pull-left">
+            <div class="form-group">
+              <label class="control-label" for="passord">Password</label>
+              <input class="form-control mr-sm-2" type="text" placeholder="Password">
+            </div>
+          </form>
+          <form class="navbar-inner pull-left">
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <div class="row">
+      <!-- <div class="col-md-12"> -->
+        <div class="col-md-6 main-left">
+          <!-- imgのレスポンシブclass="img-responsive" -->
+          <img src="C:/Users/coop/Pictures/misao web/facebook2561.png" class="img-responsive" alt="" width="600px;">
+        </div>
+        <div class="col-md-6 main-right">
+          <table>
+            <tr>
+              <td><h1 style="font-weight:bold;">Singn Up</h1></td>
+            </tr>
+            <tr>
+              <td><p>It's free and always will be</p></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" placeholder="First name"></td>
+              <td><input type="text" class="form-control" placeholder="Sir name"></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" placeholder="Mobile number or email address"></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" placeholder="Mobile number or email address"></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" placeholder="Re-enter mobile number or email address"></td>
+            </tr>
+            <tr>
+              <td><input type="password" class="form-control" placeholder="New passwprd"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="radio">
+                  <label style="margin-right:20px;"><input type="radio" name="optradio">Male</label>
+                  <label><input type="radio" name="optradio">Female</label>
+                </div>
+              <td>
+            </tr>
+            <tr>
+              <td><h2 style="font-weight:bold;">Birthday</h2></td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <form>
+                        <div class="form-group">
+                          <select class="form-control" id="sel1">
+                            <label for="sel1">Day</label>
+                            <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                        </div>
+                      </form>
+                    </td>
+                    <td>
+                      <form>
+                        <div class="form-group">
+                          <select class="form-control" id="sel1">
+                            <label for="sel">Months</label>
+                            <option>Months</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                        </div>
+                      </form>
+                    </td>
+                    <td>
+                      <form>
+                        <div class="form-group">
+                          <select class="form-control" id="sel1">
+                            <label for="sel1">Year</label>
+                            <option>Year</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td><a href="#" style="font-size:10px; color:#3b5998;">Why do i need to provide my date of birth?</a></td>
+            </tr>
+            <tr>
+              <td class="notes" colspan="2">
+                <p class="black">By clicking Sign Up, you agree to our </p>
+                <p class="blue">Terms</p>
+                <p class="black"> and that you have<br> read our</p>
+                <p class="blue"style="font-size:8px;"> Data Policy,</p>
+                <p class="black"> including our </p>
+                <p class="blue">Cookie Use.</p></td>
+            </tr>
+            <tr>
+              <td>
+                <!-- buttonのグループ化<div class="btn-group">で囲む -->
+                <div class="btn-group">
+                  <!-- ドロップダウンメニュー -->
+                  <button class="btn btn-default btn-success" type="button">Sign Up</button>
+                  <!-- <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> -->
+                  <!-- <span class="caret"></span>  横の矢印　<span class="caret"> -->
+                  <!-- </button> -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      <!-- </div> -->
+    </div>
+
+
+      <div class="footer">
+      <!-- breadcrumb -->
+        <ul class="breadcrumb foot-ul">
+          <li class="breadcrumb-item active">English (UK)</li>　<!-- class="active"現在ページ -->
+          <li class="breadcrumb-item"><a href="#">हिन्दी</a></li>
+          <li class="breadcrumb-item"><a href="#">हिन्दी</a></li>
+          <li class="breadcrumb-item"><a href="#">اردو</a></li>
+          <li class="breadcrumb-item"><a href="#">ગુજરાતી</a></li>
+          <li class="breadcrumb-item"><a href="#">বাংলা</a></li>
+          <li class="breadcrumb-item"><a href="#">தமிழ்</a></li>
+          <li class="breadcrumb-item"><a href="#">తెలుగు</a></li>
+          <li class="breadcrumb-item"><a href="#">മലയാളം</a></li>
+          <li class="breadcrumb-item"><a href="#">ಕನ್ನಡ</a></li>
+          <li class="breadcrumb-item"><a href="#">Español</a></li>
+        </ul>
+      <!-- pagination -->
+<!-- <nav aria-label="page navigation">
+        <ul class="pagination justify-content-center">
+          <li class="page-item "><a class="page-link" href="#">&laquo;</a></li> class="disabled"無効 -->
+<!--          <li　class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="">&raquo;</a></li>
+        </ul>
+      </nav> -->
+      <!-- pager -->
+          <!-- <ul class="pager"> -->
+            <!-- <li class="previous"><a href="#">前へ</a></li>  class="disabled"無効 -->
+            <!-- <li　class="next"><a href="#">次へ</a></li>
+          </ul>
+      </div> -->
+
+
+
+
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
