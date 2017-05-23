@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header1{
+  height:45px;
+  /*background-color: red;*/
+}
+.header2{
+  height:35px;
+  /*background-color: pink;*/
+}
+.header_logo{
+  margin: right:0;
+  /*background-color: blue;*/
+  overflow: hidden;
+}
+.header_search{
+  height: 100%;
+  /*background-color: yellow;*/
+}
+.search_box{
+  width: 100%;
+  height: 25px;
+  /*background-color: green;*/
+}
+#form_keyword{
+  margin-top: 8px;
+  height: 100%;
+  width: 90%;
+  float: right;
+  background-color:transparent;
+}
+#search_button{
+  margin-top: 8px;
+  float: right;
+  background-color:transparent;
+  height: 35px;
+
+}
+/*マウスオーバー時のメニュー表示参考サイト
+http://weboook.blog22.fc2.com/blog-entry-408.html*/
+.header2{
+  /*background-color: #66cdaa;*/
+  height: 40px;
+}
+/*ドロップダウンメニュー*/
+.header2-nav{
+  *zoom: 1;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+  /*background-color: #66cdaa;*/
+}
+.header2-nav:before, .header2-nav:after{
+  content: "";
+  display: table;
+}
+.header2-nav:after{
+  clear: both;
+}
+.header2-nav li{
+  position: relative;
+  font-size: 16px;
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-right: 14px;
+  text-align: center;
+  padding: 0px;
+}
+.header2-nav li a{
+  color: #444;
+  display: block;
+  margin-top: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;  /* 文字の間隔*/
+  text-decoration: none;
+  line-height: 1;
+}
+.header2-nav li ul{
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin-left: 10px;
+  padding: 0;
+  background: white;
+  width: 200px;
+}
+.header2-nav li ul li{
+  background: white;
+  width: 100%;
+}
+.header2-nav li ul li a{
+  padding: 13px 15px;
+  background: white;
+  text-align: left;
+}
+.header2-nav li a:hover{
+  color: #6495ED;
+}
+.header2-nav li ul li:hover  >a{
+color: #6495ED;
+background-color: #ea352d;
+}
+#normal li ul{
+  display: none;
+}
+#normal li:hover ul{
+  display: block;
+}
+
+
+/*main*/
+.top-main{
+  width: 100%;
+  height: 390px;
+  background-image: url("../img/main_bg_pc.jpg");
+  background-size: cover;
+}
+.top-main-content{
+  /*background-color: red;*/
+  height: 100%;
+  position: relative;
+}
+.main-content{
+  /*background-color: pink;*/
+  height: 100%;
+  float: left;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.main-content h2{
+  color: white;
+  font-size: 58px;
+  line-height: 1.3em;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+.main-content p{
+  color: white;
+  font-size: 18px;
+  line-height: 1.5em;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+
+}
+.main-content table{
+}
+.top-main-content>img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+
+/*top-introduction*/
+.top-introduction{
+
+}
+.top-introduction-row{
+  /*margin: 0 70px;*/
+}
+.top-introduction h2{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 35px;
+}
+.top-introduction h3{
+  text-align: center;
+}
+.top-introduction-num {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px 0 0;
+    border-radius: 50%;
+    background: #ea352d;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    color: #fff;
+}
+.top-introduction ul{
+  width: 100%;
+  font-size: 0;
+  margin: 0 80px;
+}
+.top-introduction li{
+  display: inline-block;
+  font-size: 10px;
+  width: 28%;
+  margin-right: 20px;
+  height: 100%;
+}
+.top-introduction li>img{
+  width: 100%;
+}
+.top-introduction p{
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+
+}

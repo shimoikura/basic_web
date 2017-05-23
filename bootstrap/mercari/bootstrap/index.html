@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header1 row">
+        <div class="header_logo span3">
+          <img src="img/logo.svg" alt="" style="height:45px;">
+        </div>
+        <div class="header_search span9">
+          <form action="index.html" method="post">
+            <div class="input-group search_box">
+              <button id="search_button" class="btn btn-default" type="submit">
+                <i class="icon-search" style="background-color:transparent;"></i>
+              </button>
+              <input class="form-control" id="form_keyword" type="text" name="keyword" placeholder="Seach from keyword" value="" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="header2 row">
+        <ul class="header2-nav" id="normal">
+
+          <li><a href="#">Category</a>
+              <ul>
+                <li><a href="#">Redys</a></li>
+                <li><a href="#">Mens</a></li>
+                <li><a href="#">Babys</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Link</a></td>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+      <div class="top-main">
+        <div class="container">
+          <div class="top-main-content row">
+            <div class="main-content">
+              <h2>スマホでかんたん<br>フリマアプリ</h2>
+              <p>メルカリはスマホからすぐに出品できる<br>購入時も安心な独自のシステムアプリです</p>
+              <table>
+                <tr>
+                  <td><img src="img/app-store.svg" alt="" style="height:50px; margin-right:10px;"></td>
+                  <td><img src="img/google-play.svg" alt="" style="height:50px;"></td>
+                </tr>
+              </table>
+            </div>
+              <img src="img/main_content_pc.png" alt="" style="height:390px;">
+          </div>
+        </div>
+      </div>
+
+    <div class="top-introduction container-fluid">
+      <div class="top-introduction-row row">
+        <h2>メルカリは、かんたんに売り買いができて、<br>
+          あんしん・あんぜんなお取引ができる<br>
+          フリマアプリです。<br></h2>
+        <ul>
+          <li>
+            <h3><span class="top-introduction-num">1</span>簡単に出品できる</h3>
+            <img src="img/start1.jpg" alt="">
+            <p>スマホで写真を撮って<br>
+              特徴を入力するだけで、<br>
+              簡単に出品できます。<br></p>
+          </li>
+          <li>
+            <h3><span class="top-introduction-num">2</span>すぐに購入できる</h3>
+            <img src="img/start1.jpg" alt="">
+            <p>ボタン1つで即購入。<br>
+              あとは出品者からの発送を待つだけ<br>
+              です。</p>
+          </li>
+          <li>
+            <h3><span class="top-introduction-num">3</span>商品がたくさん</h3>
+            <img src="img/start1.jpg" alt="">
+            <p>毎日数十万品以上の新商品が<br>
+              出品されるので、ほしいものがきっ<br>
+              と見つかります。</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script>
+        (function($) {
+            $(".menu-toggle").on("click", function() {
+                $(".header2-nav").toggleClass("toggled");
+            });
+        })(jQuery);
+    </script>
+  </body>
+</html>
